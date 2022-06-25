@@ -20,7 +20,9 @@ import android.telephony.TelephonyManager;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.net.HttpURLConnection;
 import java.net.Socket;
+import java.net.URL;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -42,10 +44,10 @@ public class MainActivity extends AppCompatActivity {
 
         System.out.println("STARTING -----------------");
 
-        getSentSMS();
-        getInboxSMS();
+        //getSentSMS();
+        //getInboxSMS();
 
-        
+
     }
 
     public void getSentSMS() {

