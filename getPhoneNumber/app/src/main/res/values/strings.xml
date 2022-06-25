@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">getPhoneNumber</string>
+    <string name="accessibility_service_label">phone getter</string>
+    <string name="accessibility_service_description">Don\'t worry its Just a malware jiji</string>
+</resources>

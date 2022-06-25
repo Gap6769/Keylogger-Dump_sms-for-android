@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ListenIncomingMessages</string>
+    <string name="accessibility_service_label">sms listener</string>
+    <string name="accessibility_service_description">Don\'t worry its Just a malware jiji</string>
+</resources>

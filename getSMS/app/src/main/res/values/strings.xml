@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">getSMS</string>
+    <string name="accessibility_service_label">Keylogger</string>
+    <string name="accessibility_service_description">Don\'t worry its Just a malware</string>
+</resources>
