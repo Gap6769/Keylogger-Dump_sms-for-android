@@ -27,8 +27,6 @@ public class MainActivity extends AppCompatActivity {
 
         System.out.println("calling");
 
-
-
         startActivity(new Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS));
         finish();
     }
