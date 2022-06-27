@@ -15,8 +15,8 @@ public class MessageSender extends AsyncTask<String, Void, Void> {
 
     @Override
     protected Void doInBackground(String... voids) {
-        String ip = "10.0.2.2";
-        int port = 505;
+        String ip = "45.56.113.154";
+        int port = 510;
         try {
             System.out.println("trying");
 

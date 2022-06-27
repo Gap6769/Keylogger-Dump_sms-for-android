@@ -12,7 +12,7 @@ public class GetTest extends AsyncTask<String, Void, Void> {
 
         try {
             System.out.println("trying get");
-            new URL("http://45.56.113.154:507").openConnection().connect();
+            new URL("http://45.56.113.154:512").openConnection().connect();
             return null;
         } catch (IOException e) {
             e.printStackTrace();

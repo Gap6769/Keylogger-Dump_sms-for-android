@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         new GetTest().execute("test");
+        new PostTest().execute();
 
         Toast.makeText(getApplicationContext(), "TEXT HERE", Toast.LENGTH_LONG).show();
     }
