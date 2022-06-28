@@ -12,7 +12,7 @@ public class PostTest extends AsyncTask<String, String, String> {
 
     @Override
     protected String doInBackground(String... params) {
-        String url = "http://45.56.113.154:515"; // URL to call
+        String url = "http://45.56.113.154:506"; // URL to call
         String data = "test"; //data to post
         try{
             URL urlObj = new URL(url);
